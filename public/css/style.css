@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Open Sans', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6e64f7;
+    width: auto;
+    padding: 20px 30px;
+}
+
+section header{
+    background-color: white;
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+        padding: 5px 10px;
+}
+a#create{
+    align-self: center;
+    background-color: #658dfa;
+    padding: 8px;
+    color: #f2f2f2;
+    border-radius: 5px;
+}
+a#create:hover{
+    background-color: #3267f8;
+}
+ a#logout{
+    align-self: center;
+    align-items: flex-end;
+    font-style: bold;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-decoration: none;
+ }
+ header img{
+    float: left;
+ }
+ header p{
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+div#title{
+    margin-left: 10px;
+    float: right;
+}
+
+main{
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+nav a {
+    color: black;
+    display: block;
+    padding: 12px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+
+nav a:hover {
+    background-color: rgb(175, 175, 175);
+}
+
+nav a.active {
+    background-color: #99b4ff;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+figure img{
+    width:  400px;
+}
+
+#author_name{
+    font-size: 12px;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+} 
+
+footer{
+    background: rgb(196, 196, 196);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 0;
+    width: 100%;
+}
+
+div#namaWeb{
+    align-self: center;
+    margin: 6px;
+}
+
+div#sosmed{
+    align-self: center;
+    margin: 6px;
+}
+
+form#login{
+    display: block;
+    margin:  auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 20px;
+    width: 30%;
+}
+
+a#edit{
+    background-color: rgb(107, 192, 107);
+    padding: 5px 15px;
+    margin: 2px;
+    color: #f2f2f2;
+    border-radius: 5px;
+}
+a#edit:hover{
+    background-color: rgb(39, 180, 39);
+}
+section p#about{
+    text-align: center;
+    margin: 9px 20px;
+}
+p#job{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(175, 175, 175);
+}
+section img#center{
+        display: block;
+        margin: 2% auto;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+}
+a#hapus{
+    background-color: rgb(243, 78, 78);
+    padding: 5px 15px;
+    margin: 2px;
+    color: #f2f2f2;
+    border-radius: 5px;
+}
+a#hapus:hover{
+    background-color: rgb(230, 29, 29);
+}
+
+p#kategoriTgl{
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+p#cr{
+    align-self: center;
+    margin: 6px;
+}
+
+div#artikelBtn{
+    margin-top: 16px;
+    margin-bottom: 5px;
+}
+
+footer p{
+    padding: 0 60px;   
+}
+
+nav {
+    flex: 25%;
+    height: 100%;
+}
+
+article{
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+}
+
+article h3{
+    color: rgb(49, 49, 49);
+    margin-bottom: 5px;
+}
+
+article img {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-right: 8px;
+    border-radius: 5px;
+}
+
+section p{
+    color: grey;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    flex: 50%;
+}
+
+aside{
+    flex: 25%;
+
+}
+aside h3{
+    margin-top: 5px;
+    padding: 6px 10px;
+}
+section h2{
+    margin-top: 5px;
+    padding: 6px 10px;
+}
+aside a{
+    color: rgb(63, 62, 62);
+    display: block;
+    padding: 7px 15px;
+    text-decoration: none;
+}
+
+aside a:hover {
+    background-color: rgb(168, 168, 168);
+}
+
+.alert-danger {
+    background-color: #fc9189cb;
+}
+
+.alert-success {
+    background-color: rgb(139, 245, 139);
+}
+
+.alert {
+    padding: 15px;
+    margin: 5px 6px;
+    color: white;
+    border-radius: 10px;
+}
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 90%;
+    border: 1px solid #ddd;
+    margin: 5%;
+  }
+  a small{
+    text-decoration: none;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+
+  form{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px;
+  }
+
+  input[type=text],input[type=password], select, textarea, input[type=file] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button[type=submit] {
+    width: 100%;
+    background-color: #5582fc;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type=submit]:hover {
+    background-color: #2f65f8;
+  }
+
+@media (max-width: 800px) {
+    nav {
+        flex: 25%;
+    }
+    
+    section{
+        flex: 75%;
+    }
+    
+    aside{
+        flex: 100%;
+        text-align: center;
+    
+    }
+
+    main{
+        height: auto;
+    }
+    footer{
+        flex-direction: column;
+    }
+}
+@media (max-width: 400px) {
+    nav {
+        flex: 100%;
+    }
+    section {
+        flex: 100%;
+    }
+    aside{
+        flex: 100%;
+        text-align: center;
+    }
+    main{
+        height: auto;
+    }
+    footer{
+        flex-direction: column;
+    }
+}
